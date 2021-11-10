@@ -1,0 +1,430 @@
+* {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.header {
+  position: relative;
+  width: 100%;
+  height: 80vh;
+  top: 0;
+  left: 0;
+  background-color: #e8beac;
+  border-radius: 0 0 30% 30%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+ul {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 3rem;
+  float: right;
+  margin-top: 1.5rem;
+  margin-right: 2rem;
+}
+ul li {
+  list-style-type: none;
+  font-size: large;
+}
+
+.btn {
+  border: none;
+  color: black;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: large;
+  margin-top: -0.7rem;
+  border-radius: 40px;
+  cursor: pointer;
+}
+.btn1 {
+  background-color: white; /* Green */
+}
+.btn2 {
+  background-color: orange; /* Green */
+}
+.content {
+  display: flex;
+}
+.left {
+  flex: 40%;
+  display: flex;
+  margin-left: 5%;
+  flex-direction: column;
+}
+.text1 {
+  margin-top: 20%;
+  font-size: 3em;
+  color: blue;
+  font-weight: 500;
+}
+.text2 {
+  margin-top: 5%;
+  font-size: 20px;
+}
+.buttons {
+  margin-top: 5%;
+  display: flex;
+}
+.btn3 {
+  background-color: orange; /* Green */
+  font-weight: bolder;
+  margin-right: 2em;
+}
+.btn4 {
+  background-color: white;
+  padding: 0.8em 0.8em;
+  margin-right: 0.5em;
+  border-radius: 50%;
+  display: flex;
+}
+
+.right {
+  flex: 60%;
+  display: flex;
+  justify-content: center;
+}
+
+.boxes {
+  display: block;
+}
+.box1 {
+  align-self: flex-start;
+  height: 3em;
+  /* width: 12em; */
+  width: 17em;
+  padding: 10px;
+  margin-right: -7em;
+  margin-top: 2em;
+  color: black;
+  background: white;
+  border-radius: 20px;
+  opacity: 0.7;
+  display: flex;
+}
+.box1 img {
+  flex: 20%;
+}
+.box1 .caption {
+  flex: 80%;
+}
+.box1 .caphead {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.box2 {
+  height: 8em;
+  width: 16em;
+  padding: 10px;
+  margin-right: -10em;
+  margin-top: 10em;
+  color: black;
+  background: white;
+  border-radius: 20px;
+  opacity: 0.6;
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+}
+.box2 .upper {
+  display: flex;
+  margin-top: 0.5em;
+}
+.box2 .lower {
+  display: flex;
+  justify-content: center;
+}
+.box2 .prof_img {
+  flex: 30%;
+  border-radius: 50%;
+}
+.box2 .caption {
+  flex: 70%;
+  margin-left: 1em;
+}
+.box2 .caphead {
+  font-size: 22px;
+  font-weight: 600;
+}
+.btn5 {
+  background-color: #ff1493;
+  padding: 10px 32px;
+  margin-top: 1em;
+}
+
+.box3 {
+  height: 4em;
+  width: 12em;
+  padding: 10px;
+  color: black;
+  background: white;
+  border-radius: 20px;
+  margin-top: 9em;
+
+  opacity: 0.7;
+  display: flex;
+}
+.box3 img {
+  flex: 30%;
+}
+.box3 .caption {
+  flex: 70%;
+  margin-left: 5%;
+}
+.box3 .caphead {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.container2 {
+  margin-top: 6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.heading {
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 50px;
+  color: orange;
+  font-weight: 500;
+}
+.line1 {
+  color: darkgrey;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 1.3em;
+  font-size: 1.2em;
+}
+.line2 {
+  margin-right: auto;
+  color: darkgrey;
+  margin-left: auto;
+  margin-top: 1.3em;
+  font-size: 1.2em;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 3em;
+  margin-bottom: 2em;
+  /* margin-left: 10em; */
+}
+.cards img {
+  height: 4em;
+  width: 4em;
+  margin-right: auto;
+  margin-left: auto;
+}
+.card-content {
+  display: flex;
+  flex-direction: column;
+  height: 12em;
+  width: 20em;
+  padding-top: 1em;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 3%;
+}
+.para,
+h3 {
+  margin-right: auto;
+  margin-left: auto;
+  color: darkgrey;
+}
+.cards h3 {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  color: blue;
+}
+.card1 {
+  margin-left: 15em;
+}
+.card3 {
+  margin-right: 15em;
+}
+
+@media screen and (max-width: 1300px) {
+  .btn4 img {
+    padding-top: 0.3em;
+    padding-left: 0.2em;
+  }
+  .text1 {
+    font-size: 2em;
+  }
+  .girl_img {
+    height: 25em;
+    width: 15em;
+  }
+  .btn3 {
+    padding: 0.4em 0.4em;
+    font-size: 1em;
+  }
+  .btn4 {
+    padding: 0.5em 0.5em;
+  }
+  .box1 {
+    height: 3em;
+    width: 12em;
+  }
+  .box1 .caphead {
+    font-size: 1em;
+  }
+  .box2 {
+    margin-top: 10em;
+    height: 6em;
+    width: 12em;
+  }
+  .btn5 {
+    padding: 0.2em 0.5em;
+    margin-top: 0.2em;
+    font-size: 1em;
+  }
+  .box3 .capinfo {
+    font-size: 0.8em;
+  }
+  .box3 img {
+    height: 3em;
+    width: 1em;
+  }
+  .box3 {
+    height: 3em;
+    width: 10em;
+  }
+  .box3 .caphead {
+    font-size: 1em;
+  }
+  .cards {
+    margin-left: 0em;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .heading {
+    font-size: 2em;
+  }
+  .line1 {
+    margin-left: 17em;
+    margin-right: 17em;
+  }
+  .cards {
+    margin-left: 0em;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .line1 {
+    margin-left: 12em;
+    margin-right: 12em;
+  }
+  .card1 {
+    margin-left: 10em;
+  }
+  .card3 {
+    margin-right: 10em;
+  }
+  /* .cards {
+    margin-left: 6em;
+  } */
+}
+
+@media screen and (max-width: 850px) {
+  ul {
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    float: none;
+    margin-top: 1.5rem;
+    margin-right: 2rem;
+  }
+  ul li {
+    list-style-type: none;
+    font-size: large;
+  }
+  .cards {
+    margin-left: 2em;
+  }
+  .card1 {
+    margin-left: 7em;
+  }
+  .card3 {
+    margin-right: 7em;
+  }
+  .text1 {
+    font-size: 1.6em;
+  }
+  .text2 {
+    font-size: 1em;
+  }
+  .buttons span {
+    font-size: 0.9em;
+  }
+  .btn4 {
+    padding: 0.3em 0.5em;
+  }
+  .btn3 {
+    font-size: 0.9em;
+  }
+  .box1,
+  .box2,
+  .box3 {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .btn1 {
+    font-size: 1em;
+    padding: 0.6em 1em;
+  }
+  .cards {
+    margin-left: 0em;
+  }
+  .btn2 {
+    font-size: 1em;
+    padding: 0.6em 1em;
+  }
+  .card1 {
+    margin-left: 5em;
+  }
+  .card3 {
+    margin-right: 5em;
+  }
+  .line1 {
+    margin-left: 6em;
+    margin-right: 6em;
+  }
+  .cards {
+    margin-left: 2em;
+  }
+  .card-content {
+    font-size: 0.9em;
+  }
+  .card1 {
+    margin-right: 0em;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .card1 {
+    margin-left: 2em;
+  }
+  .card3 {
+    margin-right: 2em;
+  }
+  .line1 {
+    margin-left: 4em;
+    margin-right: 4em;
+  }
+  .buttons span {
+    font-size: 0.9em;
+  }
+  .btn3 {
+    font-size: 0.6em;
+  }
+}
